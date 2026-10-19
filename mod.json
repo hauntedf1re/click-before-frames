@@ -1,0 +1,23 @@
+{
+	"geode": "5.9.0",
+	"gd": {
+		"win": "2.2081",
+		"android": "2.2081",
+		"mac": "2.2081",
+		"ios": "2.2081"
+	},
+	"id": "prevter.imageplus",
+	"name": "Image Plus",
+	"version": "v1.0.0",
+	"developer": "Prevter",
+	"description": "This mod doesn't do anything by itself and is meant to be used by other mods or texture packs."
+	"settings": {
+		"buffer-ticks": {
+			"name": "Buffer Window (ticks)",
+			"description": "How many physics ticks a click is remembered while the player can't act on it yet. GD runs 240 ticks per second by default, so 1 tick is about 4.2 ms and 16 ticks is about 66.7 ms. Applies from the next attempt.",
+			"type": "string",
+			"default": "4",
+			"one-of": ["1", "2", "4", "8", "16"]
+		}
+	}
+}
