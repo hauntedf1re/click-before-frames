@@ -18,6 +18,7 @@ jobs:
         id: build
         with:
           sdk: nightly
+          configure-args: "-DSKIP_BUILDING_CODEGEN=OFF"
 
       - uses: actions/upload-artifact@v4
         with:
