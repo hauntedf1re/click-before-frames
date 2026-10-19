@@ -10,7 +10,7 @@
 	"name": "Image Plus",
 	"version": "v1.0.0",
 	"developer": "Prevter",
-	"description": "This mod doesn't do anything by itself and is meant to be used by other mods or texture packs."
+	"description": "This mod doesn't do anything by itself and is meant to be used by other mods or texture packs.",
 	"settings": {
 		"buffer-ticks": {
 			"name": "Buffer Window (ticks)",
